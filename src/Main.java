@@ -63,7 +63,7 @@ public class Main {
     private static int getAverageSalary() {
         int average = 0;
         for (Employee employee : employees) {
-            average = average + employee.setSalary() / employees.length;
+           average = getSalaryCosts() / employees.length;
         }
         return average;
     }

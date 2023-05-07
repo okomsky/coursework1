@@ -1,6 +1,5 @@
 public class Employee {
-    private static Employee[] employee;
-    private String person; //ФИО сотрудника;
+   final private String person; //ФИО сотрудника;
     int department; //отдел сотрудника
     int salary;//зарплата сотрудника
     private  int id;//id сотрудника
