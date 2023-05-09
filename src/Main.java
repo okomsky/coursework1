@@ -62,9 +62,7 @@ public class Main {
 
     private static int getAverageSalary() {
         int average = 0;
-        for (Employee employee : employees) {
            average = getSalaryCosts() / employees.length;
-        }
         return average;
     }
     private static void getFullNames() {

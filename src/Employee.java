@@ -1,7 +1,7 @@
 public class Employee {
-   final private String person; //ФИО сотрудника;
-    int department; //отдел сотрудника
-    int salary;//зарплата сотрудника
+    final private String person; //ФИО сотрудника;
+    private int department; //отдел сотрудника
+    private int salary;//зарплата сотрудника
     private  int id;//id сотрудника
     private static int counterID = 0;
 
