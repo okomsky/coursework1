@@ -9,7 +9,7 @@ public class Main {
         employees[3] = new Employee("Jerome A Coulson", 2, 3400);
         employees[4] = new Employee("Holly P Smith", 3, 1600);
         employees[5] = new Employee("Zoe E Pratt", 3, 1500);
-        employees[6] = new Employee("Bruce B Karstark", 4, 1900);
+        employees[6] = new Employee("Bruce K Karstark", 4, 1900);
         employees[7] = new Employee("Pedro Adriano", 4, 1750);
         employees[8] = new Employee("Karl Petricce", 5, 1300);
         employees[9] = new Employee("Samanta de Antonio", 5, 3500);
@@ -62,9 +62,7 @@ public class Main {
 
     private static int getAverageSalary() {
         int average = 0;
-        for (Employee employee : employees) {
-            average = average + employee.setSalary() / employees.length;
-        }
+           average = getSalaryCosts() / employees.length;
         return average;
     }
     private static void getFullNames() {
